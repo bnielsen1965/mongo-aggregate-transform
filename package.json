@@ -1,6 +1,6 @@
 {
   "name": "mongo-aggregate-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Special transforms to handle type casting in mongo aggregate pipes.",
   "main": "lib/",
   "scripts": {
