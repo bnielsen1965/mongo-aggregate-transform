@@ -1,5 +1,10 @@
 # mongo-aggregate-transform
 
+> DEPRECATED
+> NOTE: Use the mongo-stringto module in place of this module.
+> There are some minor breakage changes but the naming and documentation are
+> better and development of this module will go no further.
+
 Special transforms to handle type casting in mongo aggregate pipes.
 
 The transform module is utilized on the server where aggregate pipe requests
@@ -58,7 +63,7 @@ object on the server for an aggregate process the $stringToDate operator should
 be used.
 
 
-## $strinngToObjectId
+## $stringToObjectId
 
 Object IDs are commonly passed as a hex string. By using the $stringToObjectId
 operator a string value can be passed to the server and then transformed into
